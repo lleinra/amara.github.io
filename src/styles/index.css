@@ -1,0 +1,82 @@
+:root {
+  --ink: #0d0d0d;
+  --paper: #f5f2ed;
+  --paper-warm: #ede9e2;
+  --accent: #c84b31;
+  --accent-light: #e8705a;
+  --muted: #8a8278;
+  --line: rgba(13,13,13,0.12);
+  --mono: 'DM Mono', monospace;
+  --serif: 'DM Serif Display', serif;
+  --sans: 'DM Sans', sans-serif;
+
+  --bg: var(--paper);
+  --bg-warm: var(--paper-warm);
+  --text: var(--ink);
+  --text-muted: var(--muted);
+  --border: var(--line);
+  --card-bg: var(--paper-warm);
+  --skill-badge-bg: var(--paper);
+  --nav-scrolled-bg: rgba(245, 242, 237, 0.92);
+  --mobile-menu-bg: var(--paper);
+  --exp-list-color: #3a3530;
+  --achieve-desc-color: #5a5550;
+  --edu-school-color: #3a3530;
+}
+
+[data-theme="dark"] {
+  --ink: #f0ece6;
+  --paper: #111110;
+  --paper-warm: #1a1917;
+  --muted: #7a7570;
+  --line: rgba(240,236,230,0.1);
+
+  --bg: #111110;
+  --bg-warm: #1a1917;
+  --text: #f0ece6;
+  --text-muted: #7a7570;
+  --border: rgba(240,236,230,0.1);
+  --card-bg: #1a1917;
+  --skill-badge-bg: #111110;
+  --nav-scrolled-bg: rgba(17, 17, 16, 0.92);
+  --mobile-menu-bg: #1a1917;
+  --exp-list-color: #c5bfb8;
+  --achieve-desc-color: #9a9490;
+  --edu-school-color: #c5bfb8;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition: background 0.3s, color 0.3s;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
