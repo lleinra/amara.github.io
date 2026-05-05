@@ -2,7 +2,7 @@
 	 width="100%" viewBox="0 0 861 720" enable-background="new 0 0 861 720" xml:space="preserve">
 <defs>
   <clipPath id="rounded">
-    <rect width="861" height="720" rx="200" ry="200"/>
+    <rect width="861" height="720" rx="80" ry="80"/>
   </clipPath>
 </defs>
 <g clip-path="url(#rounded)">

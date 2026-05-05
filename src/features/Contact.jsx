@@ -24,7 +24,7 @@ export default function Contact() {
           </a>
           <a className={styles.contactLink} href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer">
             <span className={styles.contactIcon}>gh</span>
-            <span>GitHub @ama-aglibot</span>
+            <span>GitHub</span>
           </a>
           <div className={styles.contactLink}>
             <span className={styles.contactIcon}>📍</span>

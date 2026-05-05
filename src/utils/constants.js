@@ -1,8 +1,8 @@
 export const NAV_LINKS = ['About', 'Experience', 'Projects', 'Skills', 'Education', 'Contact']
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com/ama-aglibot', // Replace with actual if known
-  linkedin: 'https://linkedin.com/in/ama-aglibot', // Replace with actual if known
+  github: 'https://github.com/lleinra',
+  linkedin: 'https://linkedin.com/in/rñll',
 }
 
 export const PROJECTS = [
