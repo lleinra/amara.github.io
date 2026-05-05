@@ -1,4 +1,30 @@
-export const NAV_LINKS = ['About', 'Experience', 'Skills', 'Education', 'Contact']
+export const NAV_LINKS = ['About', 'Experience', 'Projects', 'Skills', 'Education', 'Contact']
+
+export const SOCIAL_LINKS = {
+  github: 'https://github.com/ama-aglibot', // Replace with actual if known
+  linkedin: 'https://linkedin.com/in/ama-aglibot', // Replace with actual if known
+}
+
+export const PROJECTS = [
+  {
+    title: 'Simulation Core Optimizer',
+    tags: ['C#', '.NET', 'Algorithm Design'],
+    desc: 'Redesigned core backend logic for engineering simulation software, resulting in a 40% reduction in processing time and improved memory efficiency.',
+    link: '#',
+  },
+  {
+    title: 'Legacy Modernization Suite',
+    tags: ['C#', 'C++', 'WPF'],
+    desc: 'Led the migration of legacy Embarcadero C++ Builder tools to a modern C# environment, introducing improved UI responsiveness and maintainable architecture.',
+    link: '#',
+  },
+  {
+    title: 'Enterprise Web Portal',
+    tags: ['ASP.NET', 'VB.NET', 'AJAX'],
+    desc: 'Enhanced a large-scale web application for internal data management, implementing modern AJAX-based features for real-time user feedback.',
+    link: '#',
+  },
+]
 
 export const SKILLS = [
   { label: 'C# / .NET', level: 90, category: 'Core' },

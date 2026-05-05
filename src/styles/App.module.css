@@ -521,6 +521,86 @@
   color: var(--achieve-desc-color);
 }
 
+/* ── Projects ── */
+.projGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.projCard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s, border-color 0.3s;
+}
+
+.projCard[data-visible='true'] {
+  animation: fadeUp 0.6s ease both;
+}
+
+.projCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(13,13,13,0.08);
+  border-color: var(--accent);
+}
+
+[data-theme="dark"] .projCard:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.projTags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.projTag {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--bg-warm);
+  color: var(--accent);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.projTitle {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text);
+}
+
+.projDesc {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  flex: 1;
+}
+
+.projLink {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.projLink:hover {
+  text-decoration: underline;
+}
+
 /* ── Skills ── */
 .skillsGrid {
   display: flex;
@@ -713,10 +793,31 @@ a.contactLink:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 2.5rem;
+  padding: 2.5rem;
   font-size: 0.8rem;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1.5rem;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footerSocials {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footerSocials a {
+  color: rgba(245,242,237,0.45);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footerSocials a:hover {
+  color: var(--accent);
 }
 
 [data-theme="dark"] .footer {

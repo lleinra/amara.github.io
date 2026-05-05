@@ -31,7 +31,7 @@ export default function Skills() {
     <section id="skills" className={`${styles.section} ${styles.sectionAlt}`}>
       <div className={styles.container}>
         <div className={styles.sectionHead}>
-          <span className={styles.sectionNum}>02</span>
+          <span className={styles.sectionNum}>03</span>
           <h2 className={styles.sectionTitle}>Skills</h2>
         </div>
         <div className={styles.skillsGrid}>

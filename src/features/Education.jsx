@@ -5,7 +5,7 @@ export default function Education() {
     <section id="education" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.sectionHead}>
-          <span className={styles.sectionNum}>03</span>
+          <span className={styles.sectionNum}>04</span>
           <h2 className={styles.sectionTitle}>Education</h2>
         </div>
         <div className={styles.eduCard}>

@@ -2,6 +2,7 @@ import styles from './styles/App.module.css'
 import Navbar from './layouts/Navbar'
 import Hero from './features/Hero'
 import Experience from './features/Experience'
+import Projects from './features/Projects'
 import Skills from './features/Skills'
 import Education from './features/Education'
 import Contact from './features/Contact'
@@ -18,6 +19,7 @@ export default function App() {
       <Navbar onScrollTo={scrollTo} />
       <Hero onScrollTo={scrollTo} />
       <Experience />
+      <Projects />
       <Skills />
       <Education />
       <Contact />
