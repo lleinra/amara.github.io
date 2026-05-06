@@ -33,15 +33,14 @@ export const PROJECTS = [
 ]
 
 export const SKILLS = [
-  { label: 'C# / .NET', level: 90, category: 'Core' },
-  { label: 'ASP.NET WebForms', level: 80, category: 'Core' },
-  { label: 'VB.NET & AJAX', level: 75, category: 'Core' },
-  { label: 'C++ (Embarcadero)', level: 70, category: 'Systems' },
-  { label: 'Java', level: 60, category: 'Academic' },
+  { label: 'C# / .NET', level: 90, category: 'Language' },
+  { label: 'VB.NET & ASP.NET', level: 60, category: 'Language' },
+  { label: 'C++', level: 70, category: 'Language' },
+  { label: 'Java', level: 60, category: 'Language' },
   { label: 'OOP Principles', level: 92, category: 'Core' },
+  { label: 'UiPath Studio Automation', level: 80, category: 'Craft' },
   { label: 'Code Optimization', level: 85, category: 'Craft' },
   { label: 'UI/UX Enhancement', level: 78, category: 'Craft' },
-  { label: 'Code Review', level: 80, category: 'Craft' },
   { label: 'Problem Solving', level: 88, category: 'Craft' },
 ]
 
