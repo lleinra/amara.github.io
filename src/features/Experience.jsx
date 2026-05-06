@@ -20,7 +20,7 @@ function AchievementCard({ icon, title, desc, delay }) {
 
 export default function Experience() {
   return (
-    <section id="experience" className={styles.section}>
+    <section id="experience" className={`${styles.section} ${styles.sectionAlt}`}>
       <div className={styles.container}>
         <div className={styles.sectionHead}>
           <span className={styles.sectionNum}>01</span>

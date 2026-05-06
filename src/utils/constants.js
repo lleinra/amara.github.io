@@ -8,20 +8,26 @@ export const SOCIAL_LINKS = {
 export const PROJECTS = [
   {
     title: 'Simulation Core Optimizer',
-    tags: ['C#', '.NET', 'Algorithm Design'],
+    tags: ['C++', 'C#', '.NET'],
     desc: 'Redesigned core backend logic for engineering simulation software, resulting in a 40% reduction in processing time and improved memory efficiency.',
     link: '#',
   },
   {
     title: 'Legacy Modernization Suite',
-    tags: ['C#', 'C++', 'WPF'],
+    tags: ['C#', 'C++'],
     desc: 'Led the migration of legacy Embarcadero C++ Builder tools to a modern C# environment, introducing improved UI responsiveness and maintainable architecture.',
     link: '#',
   },
   {
-    title: 'Enterprise Web Portal',
-    tags: ['ASP.NET', 'VB.NET', 'AJAX'],
-    desc: 'Enhanced a large-scale web application for internal data management, implementing modern AJAX-based features for real-time user feedback.',
+    title: 'Sudoku Generator and Solver Using Backtrack Algorithm',
+    tags: ['Java', 'processing.org'],
+    desc: 'Built a program that makes Sudoku puzzles and then solves them by trying numbers, going back when something doesn\'t fit, brute forcing this way until everything works',
+    link: '#',
+  },
+  {
+    title: 'Tic-Tac-Toe Bot Using Minimax Algorithm',
+    tags: ['Java', 'processing.org'],
+    desc: 'Built a program that plays Tic-Tac-Toe by thinking ahead and always choosing the move that gives it the best chance to win or not lose',
     link: '#',
   },
 ]

@@ -87,9 +87,9 @@ export default function Navbar({ onScrollTo }) {
           className={styles.themeToggle}
           onClick={() => setDark(v => !v)}
           aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
-          title={dark ? 'Light mode' : 'Dark mode'}
+          title={dark ? 'Dark mode' : 'Light mode'}
         >
-          {dark ? <SunIcon /> : <MoonIcon />}
+          {dark ? <MoonIcon /> : <SunIcon />}
         </button>
 
         <button
